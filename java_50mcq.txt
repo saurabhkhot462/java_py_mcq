@@ -1,0 +1,213 @@
+1) Who invented Java Programming?
+a) Guido van Rossum b) James Gosling c) Dennis Ritchie d) Bjarne Stroustrup
+
+2) Which statement is true about Java?
+a) Java is a sequence-dependent programming language
+b) Java is a code dependent programming language
+c) Java is a platform-dependent programming language
+d) Java is a platform-independent programming language
+
+3) Which component is used to compile, debug and execute the java programs?
+a) JR b) JIT c) JDK d) JVM
+
+4) Which one of the following is not a Java feature?
+a) Object-oriented b) Use of pointers c) Portable d) Dynamic and Extensible
+
+5) Which of these cannot be used for a variable name in Java?
+a) identifier & keyword b) identifier c) keyword d) none of the mentioned
+
+6) What is the extension of java code files?
+a) .js b) .txt c) .class d) .java
+
+7) What will be the output of the following Java code?
+1. class increment {
+2. public static void main(String args[])
+3. { 
+4. int g = 3;
+5. System.out.print(++g * 8);
+6. }
+7. }
+
+8) Which environment variable is used to set the java path?
+a) MAVEN_Path b) JavaPATH c) JAVA d) JAVA_HOME
+
+9) Which of the following is not an OOPS concept in Java?
+a) Polymorphism b) Inheritance c) Compilation d) Encapsulation
+
+10) Which of the following is a type of polymorphism in Java Programming?
+a) Multiple polymorphism b) Compile time polymorphism c) Multilevel 
+polymorphism d) Execution time polymorphism
+
+11) What is Truncation in Java?
+a) Floating-point value assigned to a Floating type b) Floating-point value assigned to 
+an integer type c) Integer value assigned to floating type d) Integer value 
+assigned to floating type
+
+12) What is the extension of compiled java classes?
+a) .txt b) .js c) .class d) .java
+
+13) Which of these are selection statements in Java?
+a) break b) continue c) for() d) if()
+
+14) Which of these keywords is used to define interfaces in Java?
+a) intf b) Intf c) interface d) Interface
+
+15) Which of the following is a superclass of every class in Java?
+a) ArrayList b) Abstract class c) Object class d) String
+
+16) Which of the below is not a Java Profiler?
+a) JProfiler b) Eclipse Profiler c) JVM d) JConsole
+
+17) Which of these packages contains the exception Stack Overflow in Java?
+a) java.io b) java.system c) java.lang d) java.util
+
+18) Which of these keywords are used for the block to be examined for exceptions?
+a) check b) throw c) catch d) try
+
+19) Which one of the following is not an access modifier?
+a) Protected b) Void c) Public d) Private
+
+20) What is the numerical range of a char data type in Java?
+a) 0 to 256 b) -128 to 127 c) 0 to 65535 d) 0 to 32767
+
+21) Which class provides system independent server side implementation?
+a) Server b) ServerReader c) Socket d) ServerSocket
+
+22) What is the stored in the object obj in following lines of Java code?
+ box obj;
+a) Memory address of allocated memory of object b) NULL c) Any arbitrary pointer
+d) Garbage
+
+23) Which of these keywords is used to make a class?
+a) class b) struct c) int d) none
+
+24) Which of the following is a valid declaration of an object of class Box?
+a) Box obj = new Box(); b) Box obj = new Box; c) obj = new Box(); d) new Box obj;
+
+25) Which of these operators is used to allocate memory for an object?
+a) malloc b) alloc c) ne d) give
+
+26) Which of these statement is incorrect?
+a) Every class must contain a main() method b) Applets do not require a main() method 
+at all c) There can be only one main() method in a program d) main() method must be 
+made public
+
+27) Which of the following statements is correct?
+a) Public method is accessible to all other classes in the hierarchy b) Public method is 
+accessible only to subclasses of its parent class c) Public method can only be called 
+by object of its class d) Public method can be accessed by calling object of the public 
+class
+
+28) Which data type value is returned by all transcendental math functions?
+a) int b) float c) double d) long
+
+29) Which of the following contains both date and time?
+a) java.io.date b) java.sql.date c) java.util.date d) java.util.dateTime
+
+30) Which of the following is advantage of using JDBC connection pool?
+a) Slow performance b) Using more memory c) Using less memory d) Better 
+performance
+
+31) Which of the following is advantage of using PreparedStatement in Java?
+a) Slow performance b) Encourages SQL injection c) Prevents SQL injection
+d) More memory usage
+
+32) Which one of the following contains date information?
+a) java.sql.TimeStamp b) java.sql.Time c) java.io.Time d) java.io.TimeStamp
+
+33) What does setAutoCommit(false) do?
+a) commits transaction after each query b) explicitly commits transaction
+c) does not commit transaction automatically after each query
+d) never commits transaction
+
+34) Which of the following is used to call stored procedure?
+a) Statement b) PreparedStatement c) CallableStatment d) 
+CalledStatement
+
+35) Which of the following is used to limit the number of rows returned?
+a) setMaxRows(int i) b) setMinRows(int i) c) getMaxrows(int i)
+d) getMinRows(int i)
+
+36) Which of the following is method of JDBC batch process?
+a) setBatch() b) deleteBatch() c) removeBatch() d) addBatch()
+
+37) Which of the following is used to rollback a JDBC transaction?
+a) rollback() b) rollforward() c) deleteTransaction() d) RemoveTransaction()
+
+38) Which of the following is not a JDBC connection isolation levels?
+a) TRANSACTION_NONE b) TRANSACTION_READ_COMMITTED c) 
+TRANSACTION_REPEATABLE_READ d) TRANSACTION_NONREPEATABLE_READ
+
+39) Which of these class produce objects with respect to geographical locations?
+a) TimeZone b) Locale c) Date d) SimpleTimeZone
+
+40) Which of these methods is not a Locale class?
+a) UK b) US c) INDIA d) KOREA
+
+41) Which of these class can generate pseudorandom numbers?
+a) Locale b) Rand c) Random d) None of the mentioned
+
+42) Which of these method of Locale class can be used to obtain country of operation?
+a) getCountry() b) whichCountry() c) DisplayCountry() d) getDisplayCountry()
+
+43) Which of these is a method can generate a boolean output?
+a) retbool() b) getBool() c) nextBool() d) nextBoolean()
+
+44) What will be the output of the following Java program?
+1. import java.util.*;
+2. class LOCALE_CLASS
+3. {
+4. public static void main(String args[])
+5. {
+6. Locale obj = new Locale("HINDI") ;
+7. System.out.print(obj.getDisplayLanguage());
+8. }
+9. }
+a) India b) INDIA c) HINDI d) Nothing is displayed
+
+45) Which of these method of Thread class is used to find out the priority given to a thread?
+a) get() b) ThreadPriority() c) getPriority() d) getThreadPriority()
+
+46) Which of these method of Thread class is used to Suspend a thread for a period of time?
+a) sleep() b) terminate() c) suspend() d) stop()
+
+47) Which function of pre defined class Thread is used to check weather current thread being 
+checked is still running?
+a) isAlive() b) Join() c) isRunning() d) Alive()
+
+48) What is the priority of the thread in output in the following Java program?
+1. class multithreaded_programing
+2. {
+3. public static void main(String args[])
+4. {
+5. Thread t = Thread.currentThread();
+6. t.setName("New Thread");
+7. System.out.println(t.getName()); 
+8. }
+9. }
+a) main b) Thread c) New Thread d) Thread[New Thread,5,main
+
+49. What is the name of the thread in output in the following Java program?
+1. class multithreaded_programing
+2. {
+3. public static void main(String args[])
+4. {
+5. Thread t = Thread.currentThread();
+6. System.out.println(t.getPriority()); 
+7. }
+8. }
+a) 0
+b) 1
+c) 4
+d) 5
+
+50. What is the name of the thread in output in the following Java program?
+1. class multithreaded_programing
+2. {
+3. public static void main(String args[])
+4. {
+5. Thread t = Thread.currentThread();
+6. System.out.println(t.isAlive()); 
+7. }
+8. }
+a) 0 b) 1 c) true d) fals

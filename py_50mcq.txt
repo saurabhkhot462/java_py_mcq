@@ -1,0 +1,188 @@
+1. Which of the following functions is a built-in function in python?
+a) factorial() b) print()
+c) seed() d) sqrt()
+
+2. What will be the output of the following Python code?
+• x = 'abcd'
+ for i in x:
+ print(i.upper())
+
+ 3. What will be the output of the following Python function?
+len(["hello",2, 4, 6])
+4. Which one of the following is not a keyword in Python language?
+a) pass b) eval
+c) assert d) nonlocal
+
+5. What arithmetic operators cannot be used with strings in Python?
+a) * b) –
+c) + d) All of the mentioned
+
+6. To add a new element to a list we use which Python command?
+a) list1.addEnd(5) b)list1.addLast(5) c) list1.append(5)
+d) list1.add(5)
+
+7. What is the maximum possible length of an identifier in Python?
+a) 79 b) 31 
+c) 63 d) none 
+
+8. Which of the following is a Python tuple?
+a) {1, 2, 3} b) {}
+c) [1, 2, 3] d) (1, 2, 3)
+
+9. What is output of print(math.pow(3, 2))?
+a) 9.0 b) None
+c) 9 d) None 
+
+10. error, there is more than one return statement in a single try-finally block
+b) 3 c) 2 d) 1
+
+11.What will be the value of the following Python expression?
+ 4 + 3 % 5
+
+ 12. Which of the following operators has its associativity from right to left?
+a) + b) // c) % d) **
+
+13.What is the value of the following expression?
+8/4/2, 8/(4/2)
+
+14. Which of the following is not a complex number?
+a) k = 2 + 3j b) k = complex(2, 3) c) k = 2 + 3l d) k = 2 + 3J
+
+15. What is the type of inf?
+a) Boolean b) Integer c) Float d) Complex
+
+16. What is the type of inf?
+a) Boolean b) Integer
+c) Float d) Complex
+
+17. Which of the following functions accepts only integers as arguments?
+a) ord() b) min() c) chr() d) any()
+
+18. What is the maximum length of a Python identifier?
+a.32 b.16 c. 128 d. No fixed 
+
+19. How is a code block indicated in Python?
+C. Brackets. B. Indentation. Key. D. None
+
+20. Which of the following concepts is not a part of Python?
+A. Pointers. B. Loops.
+C. Dynamic Typing.
+D. All of the above.
+
+21. Which of the following is the correct extension of the Python file?
+a). python b) .pl c) .py d) .p
+
+22. All keywords in Python are in _________
+a) Capitalized b) lower case c) UPPER CASE d) None
+
+23. Which of the following is used to define a block of code in Python language?
+a) Indentationb) Key c) Brackets d) All
+
+24. Which keyword is used for function in Python language?
+a) Function b) Def c) Fun d) Define
+
+25. Which of the following character is used to give single-line comments in Python?
+a) // b) # c) ! d) /*
+
+26. What will be the output of the following Python function?
+len(["hello",2, 4, 6])
+What will be the output of the following Python statement?
+
+27. Which one of the following is not a keyword in Python language?
+a) pass b) eval c) assert d) nonlocal
+
+28. Which module in the python standard library parses options received from the command 
+line?
+a) getarg b) getopt c) main d) os
+
+29. What arithmetic operators cannot be used with strings in Python?
+a) * b) – c) + d) All
+
+30. Which of the following statements is used to create an empty set in Python?
+a) ( ) b) [ ] c) { } d) set()
+
+31. To add a new element to a list we use which Python command?
+a) list1.addEnd(5) b) list1.addLast(5) c) list1.append(5) d) list1.add(5)
+
+32. What are the two main types of functions in Python?
+a) System function b) Custom function c) Built-in function & User defined function
+d) User function
+
+33. Which of the following is a Python tuple?
+a) {1, 2, 3} b) {} c) [1, 2, 3] d) (1, 2, 3)
+
+34. What will be the output of the following Python expression?
+round(4.576)
+a) 4 b) 4.6 c) 5 d) 4.5
+
+35. How many except statements can a try-except block have?
+a) zero b) one c) more than one d) more than zero
+
+36. What will be the output of the following Python code?
+def foo():
+ try:
+ print(1)
+ finally:
+ print(2)
+foo()
+a) 1 2 b) 1 c) 2
+
+37. All keywords in Python are in _________
+a) Capitalized b) lower case c) UPPER CASE d) None
+
+38. Which of the following is used to define a block of code in Python language?
+a) Indentationb) Key c) Brackets d) All
+
+39. Which keyword is used for function in Python language?
+a) Function b) Def c) Fun d) Define
+
+40. What will be the output of the following Python code?
+t[5]
+a) IndexError b) NameError c) TypeError d) ValeError
+
+41.What will be the output of the following Python code?
+int('65.43')
+a) ImportError b) ValueError c) TypeError d) NameError
+
+42. An exception is ____________
+a) an object b) a special function c) a standard module d) a module
+
+43. ______________________ exceptions are raised as a result of an error in opening a particular file.
+a) ValueError b) TypeError c) ImportError d) IOError
+
+44.Which of the following blocks will be executed whether an exception is thrown or not?
+a) except b) else c) finally d) assert
+
+45. To add a new element to a list we use which Python command?
+a) list1.addEnd(5) b)list1.addLast(5) c) list1.append(5) d) list1.add(5)
+
+46. What is the maximum possible length of an identifier in Python?
+a) 79 b) 31 c) 63 d) none 
+
+47. Which of the following is a Python tuple?
+a) {1, 2, 3} b) {} c) [1, 2, 3] d) (1, 2, 3)
+
+48. What will be the output of the following Python code?
+x = ['ab', 'cd']
+for i in x:
+ i.upper()
+print(x)
+a) [‘ab’, ‘cd’] b) [‘AB’, ‘CD’] c) [None, None] d) none of the mentioned
+
+49. What will be the output of the following Python code?
+i = 1
+while True:
+ if i%3 == 0:
+ break
+ print(i)
+ i + = 1
+a) 1 2 b) 1 2 3 c) error d) none
+
+50.What will be the output of the following Python code?
+i = 1
+while True:
+ if i%2 == 0:
+ break
+ print(i)
+ i += 2
+a) 1 b) 1 2 c) 1 2 3 4 5 6 … d) 1 3 5 7 9 11 …
